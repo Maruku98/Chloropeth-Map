@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #6666ff;
+    --backgroundGrey: #757575;
+    --innerGrey: #4f4f4f;
+    --shadowGrey: #303030;
+}
+
+body {
+    font-family: "Consolas";
+    text-align: center;
+    background-color: var(--backgroundGrey);
+}
+
+#title {
+    width: 40%;
+    margin: 20px auto;
+    color: white;
+}
+
+#description {
+    margin-bottom: 40px;
+}
+
+main {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#root {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    padding: 25px 0;
+    background-color: var(--innerGrey);
+    box-shadow: var(--shadowGrey) 10px 10px;
+}
+
+.county:hover {
+    fill: var(--blue) !important;
+}
+
+.mesh {
+    fill: none;
+    stroke: var(--innerGrey);
+    stroke-width: 1px;
+    stroke-linejoin: round;
+}
+
+.legend-tile {
+    height: 15px;
+    width: 30px;
+}
+
+.tick, .tick line, path.domain  {
+    stroke: white;
+    color: white;
+}
+
+.tick text {
+    font-size: 12px;
+}
+
+#tooltip {
+    position: absolute;
+    bottom: 24%;
+    right: 2%;
+    display: none;
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+    font-size: 0.8vw;
+    font-weight: bold;
+    width: 200px;
+    background-color: var(--backgroundGrey);
+    box-shadow: var(--shadowGrey) 8px 8px;
+}
+
+#percentage {
+    margin-top: 10px;
+    color: var(--shadowGrey);
+}
