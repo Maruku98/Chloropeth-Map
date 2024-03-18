@@ -1,6 +1,6 @@
 # Chloropeth Map
 ## Overview
-Chloropeth Map build dinamically with JavaScript D3 library and fetched JSON data!<br><br>
+Chloropeth Map built dinamically with JavaScript D3 library and fetched JSON data!<br><br>
 <img src="https://github.com/Maruku98/Chloropeth-Map/assets/133391272/200aadd4-c9e1-461f-9909-311ebf1810c3" width="700">
 
 
