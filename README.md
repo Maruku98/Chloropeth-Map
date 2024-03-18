@@ -4,10 +4,12 @@ Chloropeth Map built dinamically with JavaScript D3 library and fetched JSON dat
 <img src="https://github.com/Maruku98/Chloropeth-Map/assets/133391272/200aadd4-c9e1-461f-9909-311ebf1810c3" width="700">
 
 
-## PROGRAMMING LANGUAGES USED
+## TECHNOLOGIES USED
 - **HTML5**
 - **CSS3**
 - **JavaScript ES6**
+- Async/await
+- JSON (TopoJSON)
 - **D3 Library** 📚:
 
 ### EXPLANATION
